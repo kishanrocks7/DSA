@@ -19,3 +19,6 @@ class Solution:
         nums[ind+1:l]=sorted(nums[ind+1:l])
             
                         
+"""LOGIC: First figure out the index where swapping will make semse. eg 1576875 here swapping 6&8 will give
+ bigger number but. After finding that index figure out min num>6 but lesser from i:n part of array eg rather
+   than swapping 6&8 swapping 6&7 will give just next bigger number After swapping and sorting array i:n part.  """
